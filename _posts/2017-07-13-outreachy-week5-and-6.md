@@ -15,17 +15,18 @@ require SSL to be enabled. I therefore decided that the tests that require SSL w
 enabled.
 
 I also took alot of time setting up an SSL environment to run the tests. Thanks for Marcus' help as I implemented more tests on 
-bucket ACl, AWSV4, bucket lifecycle configuration and object/bucket headers.I will quickly share a summary of what has been implemend 
-so far.
+bucket ACl, AWSV4, bucket lifecycle configuration and object/bucket headers.I will quickly share a summary of what has been implemend so far.
 
 ## What has been implemented so far
                
 ### AWSV4
 + Sign requests and handlers
-+ Presign requests and handlers              
++ Presign requests and handlers    
+
 ### Basic Bucket     Operations
 + Create, Read, Update and Delete of buckets. 
 + Bucket Creation with all possible headers 
+
 ### Bucket ACL
 ### Bucket Lifecycle configuration        
 ### Basic Object     Operations          
@@ -47,11 +48,10 @@ inviting for the community to open issues where possible.
 
 ## Tasks for the next Period
 
-As stated earlier, am not yet done with this test suite and with that said I will priotise whatever issues will be opened and 
+As stated earlier, I am not yet done with this test suite and with that said I will priotize whatever issues will be opened and 
 will work on them according to priority till end of summer.
 
-Like Jay-Z says,Onto the next one. I will move on to starting work on Java test Suite. I will first communicate afew decisions 
-regarding the stack I will use for feedback and then get in to motion with the rest of the work.
+Like Jay-Z says,Onto the next one. I will move on to starting work on the Java test Suite. I will first communicate a few decisions regarding the stack I will use for feedback and then get in to motion with the rest of the work.
 
 
 
