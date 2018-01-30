@@ -12,9 +12,9 @@ The test suite tests Ceph's Rados Gate Way S3 interface.
 
 The tests are written in Go programming language and make use of the AWS Go SDK to perform the s3 operations.
 
-We use the builtin go testing package for the tests but we also make use of testify for assertions and creating suites.
+We use the builtin go testing package in the testsuite but we also make use of testify for assertions and creating suites.
 
-The test configuration data is kept in a toml file and viper used to load and read the configuration data. Viper is used due to its flexibility in the configuration types used. We load the configuration data by reading the config file by name without its extension. This accomodates any configuration type i.e yaml , toml etc. Other than this, viper avails us a less complex way using the dot notation rather than using structs when reading config data.
+The test configuration data is kept in a toml file and viper used to load and read the configuration data. Viper is used due to its flexibility in the configuration types used. We load the configuration data by reading the config file by name without its extension. This has the advantage of accomodating any configuration type i.e yaml , toml etc. Other than this, viper avails us a less complex way using the dot notation rather than using structs when reading config data.
 
 ## Implemented Tests
 
