@@ -14,11 +14,11 @@ I was told by the mentors of the project to priotize testing AWS4 because there 
 
 Well I have put a stop to adding more tests to the java suite for now and ensuring the existing ones are running perfectly well. I have implemented about 150 tests in this suite. 
 
-I got feedback where my the ceph RGW developers had errors running these tests which I have rectified now and we will review today at a confortable time in their time zone.
+I got feedback where my the ceph RGW developers had errors running these tests which I have rectified now and we will review today at a comfortable time in their time zone.
 
 #### How I solved Challlenges on this suite
 
-Well most of the challenges in executing these tests stemed from the teardown method which I was oiginally calling after every method. This caused the ceph logs to over build up and complain of insufficient memory. When I decided to run the tear down after every class, this was solved. This also solved problems where some tests required to be broken down to another separate class to run well. The Go suite works well with teardown method being called after every test method though.
+Well most of the challenges in executing these tests stemed from the tear down method which I was oiginally calling after every method. This caused the ceph logs to over build up and complain of insufficient memory. When I decided to run the tear down after every class, this was solved. This also solved problems where some tests required to be broken down to another separate class to run well. The Go suite works well with tear down method being called after every test method though.
 
 ## Refactoring
 
