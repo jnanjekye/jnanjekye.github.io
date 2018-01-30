@@ -9,8 +9,7 @@ implemented. Let me get to some details on what has and needs to be implemented.
 
 ## What has been implemented
 
-This is a summary of the implemented tests a [commit](https://github.com/nanjekyejoannah/java_s3tests/commits/master) summary would sound 
-more elaborate.
+This is a summary of the implemented tests a [commit](https://github.com/nanjekyejoannah/java_s3tests/commits/master) summary would sound more elaborate.
 
 + Tests on Basic object and bucket CRUD.
 + Tests on SSE and KMS.
@@ -19,8 +18,8 @@ more elaborate.
 
 ## What Next
 
-I will have to ensure I have a CLI environment to run the tests as currently I run them in eclipse. I need to make us of Ant
-to automate the test automation. This has been a battle but hoping to nail it down completely soonest.
+I will have to ensure I have a CLI environment to run the tests as currently I run them in eclipse. I need to make use of Ant
+to automate the test automation. This has been a battle but hoping to nail it down completely.
 
 I will be implementing tests on AWS auth4. I will get advise and feedback on this on especially what should be tested
 but will first share my test plan with my mentors.
