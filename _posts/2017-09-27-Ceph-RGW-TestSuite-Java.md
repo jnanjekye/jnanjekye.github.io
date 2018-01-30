@@ -41,7 +41,7 @@ Most of the cases for object operations were tested including;
 
 ### AWS4
 
-RGW has shown some inconsistencies when performing AWS4 operations before so tests are implemented for these unique cases and include:
+RGW has shown some inconsistencies when performing AWS4 operations before so tests are implemented for these unique cases that include:
 
 + Multipart Uploads of varying sizes from small to big files for both LLAPI and HLAPI.
 + Multipart Copy of varying sizes from small to big files for both LLAPI and HLAPI.
